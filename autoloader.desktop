@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=AutoLoader
+Comment=Launches the AutoLoader GUI
+Exec=/home/labuser/10k_ws/src/AutoLoader/autoloader.bash
+Icon=/home/labuser/10k_ws/src/AutoLoader/autoloader_desktop_icon.png
+Terminal=true
+Type=Application

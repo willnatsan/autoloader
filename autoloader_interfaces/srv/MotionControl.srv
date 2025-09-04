@@ -1,0 +1,9 @@
+uint32 move_type 1 # Default Move Type: ABSOLUTE
+uint32 head_curr 2 # Default Head: CAMERA
+float64 x 999 # Default Move Value: MOTION_NONE
+float64 y 999 # Default Move Value: MOTION_NONE
+float64 z 999 # Default Move Value: MOTION_NONE
+float64 r 999 # Default Move Value: MOTION_NONE
+---
+bool success
+string message

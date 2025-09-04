@@ -1,0 +1,10 @@
+string landmark_id
+float64 x 999 # Default Update Value: UPDATE_NONE
+float64 y 999 # Default Update Value: UPDATE_NONE
+float64 z 999 # Default Update Value: UPDATE_NONE
+uint32[] run_slots
+uint32[] failed_slots [999, 999] # Default Update Value: UPDATE_NONE
+float64[] skew
+---
+bool success
+string message
