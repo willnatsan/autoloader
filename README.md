@@ -20,24 +20,24 @@ To meet the unique demands of Phlux’s production workflow, the AutoLoader requ
 - Extended the X-axis with longer extrusions and linear rails to maximize both X and Y travel in the new wide-body frame.
 
 ### Custom Gripper End-Effector
-![[images/end_effectors.jpg]]
+![End Effectors](images/end_effectors.jpg)
 - Developed a micro-servo mechanical gripper, inspired by the [Annin Robotics AR4](https://anninrobotics.com/post/new-servo-gripper-for-the-ar4/), for handling TO-46 (THT) devices not suited to vacuum-based picking.
 
 ### Custom Mounts
 - Designed and 3D-printed mounts for device carriers and waffle packs, enabling secure and modular attachment to the staging plates.
-  ![[images/smd_mount_filled.jpg]]
+  ![SMD Mounts](images/smd_mount_filled.jpg)
 - Redesigned the bottom camera mount, relocating the camera and lighting above the staging plate to resolve focus issues from increased machine height.
-  ![[images/bot_camera.jpg]]
+  ![Bottom Camera](images/bot_camera.jpg)
 
 ### Quality of Life Improvements
 - Replaced the original drag chain system with separate X and Y drag chains (inspired by LumenPnP V4) for better cable management and reliability.
 - Added a dedicated power switch for easier power cycling.
-  ![[images/power_switch.jpg]]
+  ![Power Switch](images/power_switch.jpg)
 
 ---
 
 ## Software Modifications
-![[images/autoloader_software_architecture.png]]
+![Software Architecture](images/autoloader_software_architecture.png)
 ### Control API
 Located in `autoloader_controller/autoloader_controller/src/`, the custom control API includes:
 - Advanced Motion Control (w/ Runout & Backlash Compensation)
@@ -56,14 +56,14 @@ Custom ROS2 packages and nodes were developed to handle high-level functionality
 - Running the GUI
 
 ### GUI
-![[images/guii.png]]
-![[images/gui2.png]]
+![GUI 1](images/guii.png)
+![GUI 2](images/gui2.png)
 A custom **GUI built with PySide6** allows for manual control and management of loading/unloading operations.
 
 ---
 
 ## Contact
-![[images/phlux_individual_photo.jpeg]]
+![William Santoso](images/phlux_individual_photo.jpeg)
 
 **William Nathanael Santoso**  
 Robotics & Automation Intern, Phlux Technology  
