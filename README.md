@@ -56,9 +56,9 @@ Custom ROS2 packages and nodes were developed to handle high-level functionality
 - Running the GUI
 
 ### GUI
+User-friendly GUI built with PySide6 that allows for both manual control and loading/unloading run management.
 ![GUI 1](images/guii.png)
 ![GUI 2](images/gui2.png)
-A custom **GUI built with PySide6** allows for manual control and management of loading/unloading operations.
 
 ---
 
