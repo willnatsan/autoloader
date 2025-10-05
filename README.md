@@ -1,7 +1,7 @@
 # AutoLoader – A Custom LumenPnP
 
 ## About the Project
-![[images/autoloader.jpg]]
+![AutoLoader](images/autoloader.jpg)
 
 The AutoLoader is a high-precision, custom pick-and-place machine designed to automate the loading and unloading of both SMD and THT devices between various carriers.
 
